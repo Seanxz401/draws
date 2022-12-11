@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T08:55:15.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="3OIdaT1VW0yuvk7HxvLC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T12:26:45.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="ySK6LhAmf6D44tN3z8Il" type="github">
   <diagram id="WREOA2GqUdcXOgKQM-0A" name="第 1 页">
     <mxGraphModel dx="1772" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RvyOzEE34nelpc34QDes-60" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="680.5" width="680" height="300" as="geometry" />
+        <mxCell id="RvyOzEE34nelpc34QDes-96" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="680" width="680" height="422" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-45" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="390" width="680" height="230" as="geometry" />
@@ -176,30 +176,63 @@
         <mxCell id="RvyOzEE34nelpc34QDes-57" value="数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="21" y="888" width="75" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-58" target="RvyOzEE34nelpc34QDes-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-58" value="................." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="36" y="808" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-59" value="过滤器" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="585" width="130" height="50.5" as="geometry" />
-        </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-61" value="" style="curved=1;endArrow=classic;html=1;fontSize=14;entryX=0.103;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-29" target="RvyOzEE34nelpc34QDes-60">
+        <mxCell id="RvyOzEE34nelpc34QDes-61" value="" style="curved=1;endArrow=classic;html=1;fontSize=14;entryX=0.103;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="650" as="sourcePoint" />
-            <mxPoint x="310" y="600" as="targetPoint" />
+            <mxPoint x="70.04000000000019" y="709.8999999999996" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="650" />
               <mxPoint x="170" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-65" value="分析器" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="162.5" y="817.75" width="130" height="50.5" as="geometry" />
+        <mxCell id="RvyOzEE34nelpc34QDes-59" value="过滤器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="600" width="130" height="50.5" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-68" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-58" target="RvyOzEE34nelpc34QDes-65">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="860" as="sourcePoint" />
-            <mxPoint x="110" y="810" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="RvyOzEE34nelpc34QDes-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-65" target="RvyOzEE34nelpc34QDes-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-92" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-65" target="RvyOzEE34nelpc34QDes-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-65" value="分析器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="816.5" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-71" value="结构化数据包展示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="700" width="130" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-73" value="物理层 如以太网帧&lt;br&gt;srcMAC&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;dstMAC" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="750" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-79" value="网络层 如IP&lt;br&gt;srcIP&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;dstIP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="792" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-80" value="传输层 如UDP&lt;br&gt;srcPort&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;dstPort" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="834.75" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-81" value="应用层 如DNS&lt;br&gt;QuestionSection" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="876.75" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-82" value="填充数据" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="918.75" width="160" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-89" target="RvyOzEE34nelpc34QDes-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-89" value="提取器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1030" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-93" value="&lt;ul&gt;&lt;li&gt;TELNET&lt;/li&gt;&lt;li&gt;HTTP&lt;/li&gt;&lt;li&gt;FTP&lt;/li&gt;&lt;li&gt;TCP&lt;/li&gt;&lt;li&gt;PPOE&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="886.5" width="120" height="113.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-94" value="敏感数据 如&lt;br&gt;用户名、密码等" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1026.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
