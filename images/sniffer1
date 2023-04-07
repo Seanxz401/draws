@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T06:08:08.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Ojn2wm8tyxgpZ_RaZyO5" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T14:58:22.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="rgmoujgb71t3Kg8UzMZC" version="21.1.3" type="github">
   <diagram id="WREOA2GqUdcXOgKQM-0A" name="第 1 页">
-    <mxGraphModel dx="1609" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2315" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-25" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="1253.75" width="680" height="136.25" as="geometry" />
+        </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-96" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=none;dashed=1;" parent="1" vertex="1">
-          <mxGeometry y="680" width="680" height="422" as="geometry" />
+          <mxGeometry y="680" width="680" height="530" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-45" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="390" width="680" height="230" as="geometry" />
@@ -55,8 +58,8 @@
             <mxPoint x="110" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-15" value="窃听主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="300" y="219" width="80" height="15" as="geometry" />
+        <mxCell id="RvyOzEE34nelpc34QDes-15" value="监控所在主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="295" y="219" width="100" height="15" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-18" value="局域网段所有IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="20" y="84" width="30" height="150" as="geometry" />
@@ -82,13 +85,13 @@
         <mxCell id="RvyOzEE34nelpc34QDes-23" value="存活主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="640" y="95" width="30" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-25" value="发送ARP请求包&lt;br style=&quot;font-size: 14px;&quot;&gt;src=192.168.32.2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="200" y="70" width="130" height="40" as="geometry" />
+        <mxCell id="RvyOzEE34nelpc34QDes-25" value="向指定网段中所有IP&lt;br&gt;发送ARP请求包" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="70" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-26" value="监听ARP响应包&lt;br&gt;提取srcIP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="400" y="110" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-27" value="hosts[i]&lt;br&gt;从存活主机中选择&lt;br&gt;一个作为受害者" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" parent="1" vertex="1">
+        <mxCell id="RvyOzEE34nelpc34QDes-27" value="被监听hostA" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" parent="1" vertex="1">
           <mxGeometry x="60" y="449" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" edge="1">
@@ -112,19 +115,13 @@
         <mxCell id="RvyOzEE34nelpc34QDes-28" value="" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="310" y="449" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-29" value="窃听主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="320" y="546.5" width="80" height="15" as="geometry" />
+        <mxCell id="RvyOzEE34nelpc34QDes-29" value="监控所在主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="310" y="534" width="100" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-30" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="560" y="449" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-31" value="网关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="560" y="549" width="80" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-35" value="发送ARP响应包&lt;br style=&quot;font-size: 14px;&quot;&gt;src=192.168.32.2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="RvyOzEE34nelpc34QDes-35" value="发送ARP响应包&lt;br style=&quot;font-size: 14px;&quot;&gt;src=hostB&#39;s IP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="419" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-37" value="发送ARP响应包&lt;br style=&quot;font-size: 14px;&quot;&gt;src=受害者主机IP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="RvyOzEE34nelpc34QDes-37" value="发送ARP响应包&lt;br style=&quot;font-size: 14px;&quot;&gt;src=hostA&#39;s IP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="413.5" y="419" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="RvyOzEE34nelpc34QDes-27" target="RvyOzEE34nelpc34QDes-28" edge="1">
@@ -165,22 +162,25 @@
           <mxGeometry x="-110" y="798" width="90" height="65" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-54" value="数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="21" y="718" width="75" height="30" as="geometry" />
+          <mxGeometry x="30" y="718" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-55" value="数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="21" y="758" width="75" height="30" as="geometry" />
+          <mxGeometry x="30" y="758" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-56" target="Dx5ggRmhU8DKcGhoYUyM-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-56" value="数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="21" y="928" width="75" height="30" as="geometry" />
+          <mxGeometry x="30" y="928" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-57" value="数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="21" y="888" width="75" height="30" as="geometry" />
+          <mxGeometry x="30" y="888" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="RvyOzEE34nelpc34QDes-58" target="RvyOzEE34nelpc34QDes-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-58" value="................." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="36" y="808" width="40" height="70" as="geometry" />
+          <mxGeometry x="45" y="808" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-61" value="" style="curved=1;endArrow=classic;html=1;fontSize=14;entryX=0.103;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RvyOzEE34nelpc34QDes-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -202,7 +202,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-65" value="分析器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="816.5" width="140" height="53" as="geometry" />
+          <mxGeometry x="183" y="816.5" width="140" height="53" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-71" value="结构化数据包展示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="435" y="700" width="130" height="43" as="geometry" />
@@ -222,17 +222,135 @@
         <mxCell id="RvyOzEE34nelpc34QDes-82" value="填充数据" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="420" y="918.75" width="160" height="31.25" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="RvyOzEE34nelpc34QDes-89" target="RvyOzEE34nelpc34QDes-94" edge="1">
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-89" target="RvyOzEE34nelpc34QDes-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-89" value="提取器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1030" width="140" height="53" as="geometry" />
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-89" target="Dx5ggRmhU8DKcGhoYUyM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-89" value="浅层信息提取器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="183" y="1010" width="140" height="53" as="geometry" />
         </mxCell>
         <mxCell id="RvyOzEE34nelpc34QDes-93" value="&lt;ul&gt;&lt;li&gt;TELNET&lt;/li&gt;&lt;li&gt;HTTP&lt;/li&gt;&lt;li&gt;FTP&lt;/li&gt;&lt;li&gt;POP3&lt;/li&gt;&lt;li&gt;SMTP&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=15;fontStyle=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="240" y="886.5" width="120" height="113.5" as="geometry" />
         </mxCell>
-        <mxCell id="RvyOzEE34nelpc34QDes-94" value="敏感数据 如&lt;br&gt;用户名、密码等" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="445" y="1026.5" width="120" height="60" as="geometry" />
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-94" target="Dx5ggRmhU8DKcGhoYUyM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-94" target="Dx5ggRmhU8DKcGhoYUyM-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1240" />
+              <mxPoint x="198" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RvyOzEE34nelpc34QDes-94" target="Dx5ggRmhU8DKcGhoYUyM-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1240" />
+              <mxPoint x="450" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RvyOzEE34nelpc34QDes-94" value="敏感数据或&lt;br&gt;危险信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-1" value="被监听hostB" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="568" y="451.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-2" value="管理员进行&lt;br&gt;选择性监听" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="130" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dx5ggRmhU8DKcGhoYUyM-3" target="RvyOzEE34nelpc34QDes-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-3" value="深层次分析&lt;br&gt;自然语言处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1010" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-11" value="分析器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="183" y="816.5" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-12" value="浅层信息提取器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="183" y="1010" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-13" value="深层次分析&lt;br&gt;自然语言处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1010" width="140" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-14" value="传输层 如UDP&lt;br&gt;srcPort&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;dstPort" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="834.75" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-15" value="物理层 如以太网帧&lt;br&gt;srcMAC&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;dstMAC" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="750" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-16" value="网络层 如IP&lt;br&gt;srcIP&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;dstIP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="792" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-17" value="应用层 如DNS&lt;br&gt;QuestionSection" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="876.75" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-18" value="填充数据" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="420" y="918.75" width="160" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-19" value="数据库存储" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="18.75" y="1050" width="97.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-22" value="日志记录&amp;amp;&lt;br&gt;报警机制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=none;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1304.5" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-23" value="将特殊事件&lt;br&gt;写入日志文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1312" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-24" value="在管理界面显示警告信息&lt;br&gt;向管理员发送提醒邮件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1289.5" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-29" value="网段" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-30" value="监控模式" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="199" width="130" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-31" value="出入网关流量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="155" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-32" value="局域网内部流量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="250" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="177" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="251.5" width="30" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-38" value="指定被监控主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="230" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-39" value="全部存活主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="280" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-42" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1123" y="151.5" width="30" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-43" value="指定被监控主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="130" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-44" value="全部存活主机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="180" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-45" value="监控内容" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="360.5" width="135" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-46" value="协议、端口、关键词等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="355" width="177" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-47" value="根据网段锁定监控总体范围" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="75" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-48" value="警报策略" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="484.5" width="135" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dx5ggRmhU8DKcGhoYUyM-49" value="产生警报的条件、事件处理方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="484.5" width="220" height="55.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
