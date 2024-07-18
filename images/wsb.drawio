@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T02:55:31.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.3.1" etag="ongpsZuTxBS0dxGH63SB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-18T03:07:54.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="o2G8vjHI_GpnoXBXC3vl" version="24.3.1" type="github">
   <diagram name="第 1 页" id="nsINtxGWiJ4ZphKbCXR5">
-    <mxGraphModel>
+    <mxGraphModel dx="1085" dy="1068" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-1" value="卫生和社会保障部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141" y="-101" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-2" value="部长办公室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-3" value="公共卫生和&lt;div&gt;服务提供副部&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-4" value="社会保障副部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-5" value="秘书长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-6" value="附属实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-9" value="法律事务司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="125" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-10" value="&lt;div&gt;质量管理办公室&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="191" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-11" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;社会促进办公室&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="257" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-12" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;信息与通信技术&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;办公室&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="323" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EW5mezHFkuSFeGB_xYiB-13" value="&lt;div&gt;&lt;div&gt;规划和部门研究咨询办公室&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="389" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
