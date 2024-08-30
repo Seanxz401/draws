@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="_jA6_6lVscJ-v8PdzOkB">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="88.5" width="796" height="572.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="231" width="376.97" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-6" value="表演区" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="111" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-7" value="擦亮眼" style="rounded=0;whiteSpace=wrap;html=1;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="92" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-8" value="投掷沙包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=60;" vertex="1" parent="1">
+          <mxGeometry x="595" y="215" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-9" value="套中你的“钱袋”了" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="44" y="371" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-10" value="套圈游戏（电诈宣传）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="104" y="386" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-11" value="转转盘" style="rounded=0;whiteSpace=wrap;html=1;rotation=-140;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="543" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-12" value="网络安全知识答题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-139;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="518" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-14" value="打击&lt;div&gt;“网络暴力”&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=60;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="176.01" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-15" value="单眼读出5条&lt;div&gt;网络安全宣传标语&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="144" y="251" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-16" value="网络安全知识&lt;div&gt;谜语竞猜&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="705" y="301" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-17" value="全民出击&lt;div&gt;击倒谣言&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="705" y="441" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-18" value="保龄球游戏" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="461" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-19" value="签名墙（打卡墙）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="581" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-20" value="活动咨询区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="581" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-21" value="礼品兑换区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="581" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-26" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="245" width="340.97" height="253.26" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-27" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="258.11" width="303.97" height="225.78" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-24" value="警茶来了&lt;div&gt;清凉一夏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.49" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-25" value="（奶茶）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.49" y="376" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrdWPd54dt0TzhLqmV4K-28" value="网络安全宣传周 游园嘉年华" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="285" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
